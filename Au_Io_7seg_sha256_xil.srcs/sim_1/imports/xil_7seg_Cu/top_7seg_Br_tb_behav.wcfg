@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_7seg_Br_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_7seg_Br_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1430000fs"></ZoomStartTime>
+      <ZoomEndTime time="3134001fs"></ZoomEndTime>
+      <Cursor1Time time="2850000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/top_7seg_Br_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/counter" type="array">
+      <obj_property name="ElementShortName">counter[64:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[64:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/tb_address" type="array">
+      <obj_property name="ElementShortName">tb_address[27:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_address[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/tb_cs" type="logic">
+      <obj_property name="ElementShortName">tb_cs</obj_property>
+      <obj_property name="ObjectShortName">tb_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/tb_we" type="logic">
+      <obj_property name="ElementShortName">tb_we</obj_property>
+      <obj_property name="ObjectShortName">tb_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/digest_data" type="array">
+      <obj_property name="ElementShortName">digest_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">digest_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/tb_write_data" type="array">
+      <obj_property name="ElementShortName">tb_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/tb_read_data" type="array">
+      <obj_property name="ElementShortName">tb_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/block" type="array">
+      <obj_property name="ElementShortName">block[511:0]</obj_property>
+      <obj_property name="ObjectShortName">block[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/blk_cnt" type="array">
+      <obj_property name="ElementShortName">blk_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blk_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/dut/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/dut/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_7seg_Br_tb/dut/ready_reg" type="logic">
+      <obj_property name="ElementShortName">ready_reg</obj_property>
+      <obj_property name="ObjectShortName">ready_reg</obj_property>
+   </wvobject>
+</wave_config>
